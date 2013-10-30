@@ -1,0 +1,4 @@
+#! /bin/sh
+mv $1 aoeunsth
+mv $2 $1
+mv aoeunsth $2
