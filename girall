@@ -1,0 +1,6 @@
+#!/bin/bash
+# simple recursive grep for finding things in subdirectories
+# girall finds all parameters in a given order on the same line, but there may
+# be other characters in between
+# usage: girall words to find
+grep --color=auto -iR "`echo $* | sed 's/ /.*/g'`" *
