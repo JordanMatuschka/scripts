@@ -1,0 +1,3 @@
+#!/bin/bash
+QUERY=`echo $* | sed "s/ /+/g"`
+elinks http://www.duckduckgo.com/lite?q=$QUERY
